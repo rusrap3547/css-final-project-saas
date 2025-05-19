@@ -1,0 +1,358 @@
+@media (max-width: 47.9375rem) and (max-width: 767px) {
+   #topSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+   }
+
+   .topSectionContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+   }
+
+   header {
+    width: 100%;
+   }
+
+   .heroSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   #leftPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   #title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   #title .leftPartHeading {
+    font-size: 2.5rem;
+    text-align: center;
+   }
+
+   #title .leftPartParagraph {
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #rightPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   .asana-logo {
+    left: 19.75rem;
+    top: 10rem;
+   }
+
+   .calendar-logo {
+    top: 20.375rem;
+    left: 18.75rem;
+   }
+
+   .weave-logo {
+    top: 5.75rem;
+    left: 15.375rem;
+   }
+
+   .paypal-logo {
+    top: 0.75rem;
+    left: 0.75rem;
+   }
+
+   .attlasian-logo {
+    top: -10.375rem;
+    left: 8.9375rem;
+   }
+
+   .googleAds-logo {
+    top: 0.125rem;
+    left: 7.6875rem;
+   }
+
+   .google-logo {
+    top: -19.375rem;
+    left: 1rem;
+   }
+
+   .whyFrontSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 42.75rem;
+    margin: 0 auto;
+    padding: 0;
+    gap: 30px;
+   }
+
+   .mobileBullet {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30rem;
+    align-items: flex-start;
+    gap: 3rem;
+   }
+
+   .bulletsAndBars {
+    display: flex;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    margin-left: 2.875rem;
+    gap: 3rem;
+   }
+
+   .bulletTitles {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+    width: 75%;
+    gap: 6.875rem;
+    align-items: flex-start;
+   }
+
+   .bulletTitles li:nth-child(2) {
+    margin-left: 0;
+   }
+
+   .bulletsAndBars .leftWing {
+    display: none;
+   }
+
+   .pricingTitleGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+   }
+
+   .pricingGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 87rem;
+    margin: 0 auto;
+    gap: 16.0625rem;
+   }
+
+   .plan {
+    width: 90%;
+   }
+
+   .planHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;;
+   }
+
+   .planHeaderDescription {
+    text-align: center;
+   }
+
+   .featureList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.875rem;
+   }
+
+   .featureGroupOne, .featureGroupTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .itemOne, .itemTwo, .itemThree, .itemFour {
+    width: 100%;
+   }
+
+   .hireUsSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 78rem;
+    margin: 0 auto;
+    align-items: center;
+    gap: 5rem;
+   }
+
+   .hireUsLeftPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10rem;
+   }
+
+   .hireUsTop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 6.25rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+   }
+
+   .hireUsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+   }
+
+   .barWhite {
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+   }
+
+   .goal, .phrase, .hireUs {
+    text-align: center;
+   }
+
+   .hireUsBottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+   }
+
+   .hireUsRightPart {
+    display: flex;
+    width: 100%;
+    height: 50rem;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 46.625rem;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+
+   }
+
+   .fullName {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
+
+   #firstName, #lastName, #email {
+    width: 90%;
+   }
+
+   .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
+
+   #budget, #country {
+    width: 94%;
+   }
+
+   textarea {
+    width: 93.5%;
+    height: 8.375rem;
+   }
+
+   .privacy {
+    width: 100%;
+    margin-left: 2rem;
+
+   }
+
+   .submit {
+    align-items: center;
+   }
+
+   .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2.875rem auto;
+    align-items: center;
+    width: 100%;
+   }
+
+   .footergroupone, .footergrouptwo, .footergroupthree {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+   }
+   
+   .footerLogo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+   }
+
+   .columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+
+   }
+
+   .col1, .col2, .col3, .col4, .col5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+   }
+
+   .footergroupone {
+    margin-bottom: 1.5rem;
+   }
+
+   .footergrouptwo, .footergroupthree {
+    gap: 1.5rem;
+   }
+}

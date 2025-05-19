@@ -1,79 +1,36 @@
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #fff;
-      color: #1a1a1a;
-    }
-    header, footer, section {
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #333;
-    }
-    .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 4rem;
-    }
-    .hero-text {
-      max-width: 600px;
-    }
-    .button {
-      padding: 0.75rem 1.5rem;
-      background-color: #306aff;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-top: 1rem;
-    }
-    .section-title {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .features, .pricing, .contact {
-      background-color: #f9f9f9;
-      padding: 3rem 2rem;
-      margin-top: 2rem;
-      border-radius: 8px;
-    }
-    .pricing-card {
-      background-color: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      max-width: 300px;
-    }
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1rem;
-    }
-    .form-group input, .form-group select, .form-group textarea {
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-    footer {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      background-color: #101828;
-      color: white;
-    }
-    footer section {
-      flex: 1 1 200px;
-      padding: 1rem;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-front {
+    width: auto;
+    height: 50px;
+}
+
+.logo-icon-lg, .logo-icon-sm {
+    width: auto;
+    height: 50px;
+}
+
+header {
+    background-color: lightgray;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

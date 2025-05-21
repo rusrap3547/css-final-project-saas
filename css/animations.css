@@ -1,192 +1,146 @@
-@media (min-width: 64rem) {
-    @keyframes move-calendar {
-        0% {
-            top: 19.375rem;
-            left: 22.75rem;
-        }
-        10% {
-            top: 20rem;
-            left: 22.3125rem;
-        }
-        20% {
-            top: 20.625rem;
-            left: 21.95rem;
-        }
-        30% {
-            top: 21.25rem;
-            left: 21.55rem;
-        }
-        40% {
-            top: 21.875rem;
-            left: 21.15rem;
-        }
-        50% {
-            top: 22.5rem;
-            left: 20.75rem;
-        }
-        60% {
-            top: 23.125rem;
-            left: 20.35rem;
-        }
-        70% {
-            top: 23.75rem;
-            left: 19.95rem;
-        }
-        80% {
-            top: 24.375rem;
-            left: 19.55rem;
-        }
-        90% {
-            top: 25rem;
-            left: 19.15rem;
-        }
-        100% {
-            top: 25rem;
-            left: 18.75rem;
-        }
+@media (min-width: 1024px) {
+  /* HOVER EFFECTS */
+  .nav-link:hover,
+  .footer-nav-item:hover,
+  .plan,
+  .btn-link {
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+  }
+
+  .nav-link:hover,
+  .footer-nav-item:hover {
+    color: var(--link-color);
+    border-color: var(--link-color);
+  }
+
+  .plan:hover {
+    box-shadow: 0px 10px 20px 0px var(--shadow-color);
+  }
+
+  .btn-link:hover {
+    background-color: var(--white);
+    color: var(--link-color);
+  }
+
+  /* ICON EFFECTS */
+
+  #google-icon {
+    animation-name: google-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes google-icon {
+    from {
+      left: 464px;
+      opacity: 0;
     }
-    
-    @keyframes move-weave {
-        0% {
-            top: 10.75rem;
-            left: 16.375rem;
-        }
-        50% {
-            top: 10.75rem;
-            left: 8.75rem;
-        }
-        100% {
-            top: 10.75rem;
-            left: 3.25rem;
-    
-        }
+    to {
+      left: 64px;
+      opacity: 1;
     }
-    
-    @keyframes move-paypal {
-        0% {
-            top: 10.75rem;
-            left: 2.75rem;
-        }
-        50% {
-            top: 10.75rem;
-            left: -7.5rem;
-        }
-        100% {
-            top: 10.75rem;
-            left: -15.25rem;
-        }
+  }
+
+  #google-ads-icon {
+    animation-name: google-ads-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes google-ads-icon {
+    from {
+      left: 555px;
+      opacity: 0;
     }
-    
-    @keyframes move-attlasian {
-        0% {
-            top: 0.625rem;
-            left: 10.9375rem;
-        }
-        10% {
-            top: 0.625rem;
-            left: 8.90625rem;
-        }
-        20% {
-            top: 0.625rem;
-            left: 6.875rem;
-        }
-        30% {
-            top: 0.625rem;
-            left: 4.84375rem;
-    
-        }
-        40% {
-            top: 0.625rem;
-            left: 2.8125rem;
-    
-        }
-        50% {
-            top: 0.625rem;
-            left: 0.78125rem;
-        }
-        60% {
-            top: 0.625rem;
-            left: -1.25rem;
-        }
-        70% {
-            top: 0.625rem;
-            left: -3.28125rem;
-        }
-        80% {
-            top: 0.625rem;
-            left: -5.3125rem;
-        }
-        90% {
-            top: 0.625rem;
-            left: -8.375rem;
-    
-        }
-        100% {
-            top: 0.625rem;
-            left: -9.375rem;
-        }
+    to {
+      left: 155px;
+      opacity: 1;
     }
-    
-    @keyframes move-googleAds {
-        0% {
-            top: 18.125rem;
-            left: 9.6875rem;
-        }
-        10% {
-            top: 18.4375rem;
-            left: 7.1875rem;
-        }
-        20% {
-            top: 18.75rem;
-            left: 4.6875rem;
-        }
-        30% {
-            top: 19.0625rem;
-            left: 2.1875rem;
-        }
-        40% {
-            top: 19.375rem;
-            left: -0.3125rem;
-        }
-        50% {
-            top: 19.6875rem;
-            left: -3.125rem;
-        }
-        60% {
-            top: 20rem;
-            left: -6.25rem;
-        }
-        70% {
-            top: 20.3125rem;
-            left: -9.375rem;
-        }
-        80% {
-            top: 20.625rem;
-            left: -12.5rem;
-        }
-        90% {
-            top: 21.25rem;
-            left: -15.9375rem; 
-        }
-        100% {
-            top: 21.875rem;
-            left: -24rem;
-        }
-    
+  }
+
+  #asana-icon {
+    animation-name: asana-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes asana-icon {
+    from {
+      left: 780px;
+      opacity: 0;
     }
-    
-    @keyframes move-google {
-        0% {
-            top: 0.625rem;
-            left: 4rem;
-        }
-        50% {
-            top: 0.625rem;
-            left: -13.125rem;
-        }
-        100% {
-            top: 0.625rem;
-            left: -29.25rem;
-        }
+    to {
+      left: 380px;
+      opacity: 1;
     }
+  }
+
+  #atlassian-icon {
+    animation-name: atlassian-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes atlassian-icon {
+    from {
+      top: 410px;
+      opacity: 0;
+    }
+    to {
+      top: 10px;
+      opacity: 1;
+    }
+  }
+  
+  #calendar-icon {
+    animation-name: calendar-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes calendar-icon {
+    from {
+      top: 710px;
+      opacity: 0;
+    }
+    to {
+      top: 310px;
+      opacity: 1;
+    }
+  }
+  
+  #weave-icon {
+    animation-name: weave-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes weave-icon {
+    from {
+      top: 572px;
+      opacity: 0;
+    }
+    to {
+      top: 172px;
+      opacity: 1;
+    }
+  }
+
+  #paypal-icon {
+    animation-name: paypal-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes paypal-icon {
+    from {
+      top: 572px;
+      opacity: 0;
+    }
+    to {
+      top: 172px;
+      opacity: 1;
+    }
+  }
 }

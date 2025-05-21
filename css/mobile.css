@@ -1,358 +1,310 @@
-@media (max-width: 47.9375rem) and (max-width: 767px) {
-   #topSection {
-    display: flex;
+/* TABLET VIEW */
+
+@media (max-width: 1023px) {
+  /* HEADER */
+
+  .header-nav-list > .nav-link {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  /* HERO */
+
+  .hero {
     flex-direction: column;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-    align-items: center;
-   }
+    height: 650px;
+    background-size: 100% 517px;
+    background-repeat: no-repeat;
+  }
 
-   .topSectionContent {
-    display: flex;
-    flex-direction: column;
+  .hero-left {
     width: 100%;
-    padding: 0;
-    margin: 0 auto;
-    align-items: center;
-   }
+    padding-bottom: 60px;
+  }
 
-   header {
+  .hero-right {
+    margin: 0 80px;
+  }
+
+  .hero-text {
     width: 100%;
-   }
-
-   .heroSection {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 30rem;
-    margin: 0 auto;
-    padding: 0;
-   }
-
-   #leftPart {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-   }
-
-   #title {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-   }
-
-   #title .leftPartHeading {
-    font-size: 2.5rem;
     text-align: center;
-   }
+  }
 
-   #title .leftPartParagraph {
+  .hero-text > p {
+    width: 100%;
     text-align: center;
-    font-size: 1.5rem;
-   }
+  }
 
-   #rightPart {
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .wing {
+    width: 64px;
+  }
+
+  .bullet {
+    width: 175px;
+  }
+
+  /* PRICING */
+
+  .plan {
+    width: 100%;
+  }
+
+  .plan-price {
+    text-align: center;
+  }
+
+  .plan-footer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-   }
+    align-items: center;
+  }
 
-   .asana-logo {
-    left: 19.75rem;
-    top: 10rem;
-   }
+  .plan-footer > p {
+    text-align: center;
+  }
 
-   .calendar-logo {
-    top: 20.375rem;
-    left: 18.75rem;
-   }
-
-   .weave-logo {
-    top: 5.75rem;
-    left: 15.375rem;
-   }
-
-   .paypal-logo {
-    top: 0.75rem;
-    left: 0.75rem;
-   }
-
-   .attlasian-logo {
-    top: -10.375rem;
-    left: 8.9375rem;
-   }
-
-   .googleAds-logo {
-    top: 0.125rem;
-    left: 7.6875rem;
-   }
-
-   .google-logo {
-    top: -19.375rem;
-    left: 1rem;
-   }
-
-   .whyFrontSection {
-    display: flex;
+  .plans-feature-list {
     flex-direction: column;
+    padding: 0 44px;
+  }
+
+  .pricing-feature-text {
+    width: 295px;
+  }
+
+  /* HIRE US */
+
+  .hire-us {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .hire-left {
+    flex-direction: row;
     width: 100%;
-    height: 42.75rem;
-    margin: 0 auto;
-    padding: 0;
+    padding: 40px 30px 20px 30px;
+  }
+
+  .hire-person > p {
+    width: fit-content;
+  }
+
+  .hire-right {
+    width: 100%;
+    padding: 30px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    gap: 50px;
+  }
+
+  .site-nav-menu {
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    width: 330px;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding: 40px 16px 0px 16px;
+    height: 600px;
+  }
+
+  .hero-left {
     gap: 30px;
-   }
+    padding-bottom: 60px;
+    gap: 10px;
+  }
 
-   .mobileBullet {
-    display: flex;
+  .hero-right {
+    margin: 0;
+  }
+
+  .hero-text > h1 {
+    font-size: 26px;
+    line-height: 31.47px;
+  }
+
+  .hero-text > p {
+    line-height: 17px;
+  }
+
+  #google-icon {
+    top: 0;
+    left: 0;
+  }
+
+  #google-ads-icon {
+    top: 209px;
+    left: 106px;
+  }
+
+  #asana-icon {
+    top: 0;
+    left: 248px;
+  }
+
+  #atlassian-icon {
+    top: 0;
+    left: 114px;
+  }
+
+  #calendar-icon {
+    top: 219px;
+    left: 239px;
+  }
+
+  #weave-icon {
+    top: 99px;
+    left: 184px;
+  }
+
+  #paypal-icon {
+    top: 99px;
+    left: 0;
+  }
+
+  /* WHY FRONT */
+
+  .why-front {
+    height: fit-content;
+    padding-bottom: 60px;
+  }
+
+  .wing {
+    display: none;
+  }
+
+  .bullets-list {
+    flex-direction: column;
+    padding: 0 34px;
+    gap: 17px;
+    width: 100%;
+  }
+
+  .bullet-top {
+    width: fit-content;
+  }
+
+  .bullet {
     flex-direction: row;
     width: 100%;
     padding: 0;
-    margin: 0;
+  }
+
+  .bullet-text {
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  /* PRICING */
+
+  .pricing {
+    padding-bottom: 60px;
+  }
+
+  .plans-feature-list {
+    padding: 0 16px;
+    align-items: center;
+  }
+
+  .plan {
+    padding: 40px;
+    width: 330px;
+  }
+
+  .pricing-row {
+    flex-direction: column;
+  }
+
+  .plan-features {
     width: 100%;
-    height: 30rem;
-    align-items: flex-start;
-    gap: 3rem;
-   }
+  }
 
-   .bulletsAndBars {
-    display: flex;
-    height: 30rem;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 25%;
-    margin-left: 2.875rem;
-    gap: 3rem;
-   }
+  .item-content {
+    padding-left: 0;
+  }
 
-   .bulletTitles {
-    display: flex;
-    flex-direction: column;
-    height: 30rem;
+  /* HIRE US */
+
+  .hire-us {
     padding: 0;
-    margin: 0;
-    width: 75%;
-    gap: 6.875rem;
-    align-items: flex-start;
-   }
+  }
 
-   .bulletTitles li:nth-child(2) {
-    margin-left: 0;
-   }
-
-   .bulletsAndBars .leftWing {
-    display: none;
-   }
-
-   .pricingTitleGroup {
-    display: flex;
+  .hire-left {
     flex-direction: column;
-    width: 100%;
+    padding: 40px 16px 20px 16px;
+    gap: 60px;
+  }
+
+  .hire-title-title,
+  .hire-title-text,
+  .hire-phrase,
+  .hire-left-top,
+  .hire-left-bottom,
+  .hire-person > p {
+    width: auto;
     text-align: center;
-    padding: 0;
-    margin: 0 auto;
-   }
+  }
 
-   .pricingGroup {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 87rem;
-    margin: 0 auto;
-    gap: 16.0625rem;
-   }
-
-   .plan {
-    width: 90%;
-   }
-
-   .planHeader {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  .hire-left-bottom {
     align-items: center;
-    justify-content: center;;
-   }
+  }
 
-   .planHeaderDescription {
-    text-align: center;
-   }
+  .form-group-name,
+  .form-group-dropdown {
+    flex-direction: column;;
+  }
 
-   .featureList {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 1.875rem;
-   }
+  .hire-form {
+    gap: 20px;
+  }
 
-   .featureGroupOne, .featureGroupTwo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-   }
+  input[type="checkbox"] {
+    width: 30%;
+    margin-bottom: 90px;
+  }
 
-   .itemOne, .itemTwo, .itemThree, .itemFour {
-    width: 100%;
-   }
+  /* FOOTER */
 
-   .hireUsSection {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 78rem;
-    margin: 0 auto;
-    align-items: center;
-    gap: 5rem;
-   }
-
-   .hireUsLeftPart {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    gap: 10rem;
-   }
-
-   .hireUsTop {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 6.25rem;
-    margin: 0 auto;
-    align-items: center;
-    padding: 0;
-   }
-
-   .hireUsTitle {
-    display: flex;
+  footer {
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    
-   }
+    text-align: center ;
+  }
 
-   .barWhite {
-    margin: 0 auto;
+  .company-info {
     align-items: center;
-    width: 90%;
-   }
+  }
 
-   .goal, .phrase, .hireUs {
-    text-align: center;
-   }
-
-   .hireUsBottom {
-    display: flex;
+  .site-nav {
     flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-   }
+  }
 
-   .hireUsRightPart {
-    display: flex;
-    width: 100%;
-    height: 50rem;
-    margin: 0 auto;
-    padding: 0;
-   }
-
-   form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 46.625rem;
-    gap: 1rem;
-    margin: 0 auto;
-    margin-bottom: 1.875rem;
-
-   }
-
-   .fullName {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-   }
-
-   #firstName, #lastName, #email {
-    width: 90%;
-   }
-
-   .row {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-   }
-
-   #budget, #country {
-    width: 94%;
-   }
-
-   textarea {
-    width: 93.5%;
-    height: 8.375rem;
-   }
-
-   .privacy {
-    width: 100%;
-    margin-left: 2rem;
-
-   }
-
-   .submit {
-    align-items: center;
-   }
-
-   .footer {
-    display: flex;
-    flex-direction: column;
-    margin: 2.875rem auto;
-    align-items: center;
-    width: 100%;
-   }
-
-   .footergroupone, .footergrouptwo, .footergroupthree {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-   }
-   
-   .footerLogo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-   }
-
-   .columns {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-
-   }
-
-   .col1, .col2, .col3, .col4, .col5 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-   }
-
-   .footergroupone {
-    margin-bottom: 1.5rem;
-   }
-
-   .footergrouptwo, .footergroupthree {
-    gap: 1.5rem;
-   }
+  footer a {
+    font-size: 18px;
+  }
 }
